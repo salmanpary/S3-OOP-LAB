@@ -65,6 +65,7 @@ System.out.println("salary:"+of.salary);
 
 public static void main(String[] args){
 getdatamanager();
+getdataofficer();
 
 
 }

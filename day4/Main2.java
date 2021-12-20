@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 class Employee{
+float salary;
+String name;
 
 public void display(){
 System.out.println("the class name is: Employee");
@@ -11,6 +13,7 @@ System.out.println("salary=10000");
 }
 }
 class Engineer extends Employee{
+
  @Override
  
  public void calcsalary(){
